@@ -1,11 +1,11 @@
-clase  pública Alumno
+public class Alumno
 {
-    public  int  Id { obtener ; establecer ; }
-     cadena  pública Nombre { get ; establecer ; }
+    public int Id { get; set; }
+    public string Nombre { get; set; }
 
-    pública  alumno ( int  ID , cadena de  nombre )
+    public Alumno(int id, string nombre)
     {
-        Id  =  id ;
-        Nombre  =  nombre ;
+        Id = id;
+        Nombre = nombre;
     }
 }
